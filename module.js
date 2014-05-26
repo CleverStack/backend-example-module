@@ -5,4 +5,4 @@ Module = ModuleClass.extend({
  
 });
  
-module.exports = new Module( 'example-module', injector );
+module.exports = new Module( 'backend-example-module', injector );
