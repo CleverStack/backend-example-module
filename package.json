@@ -1,7 +1,6 @@
 {
   "name": "backend-example-module",
   "version": "1.0.1",
-  "private": true,
   "dependencies": {},
   "author": {
     "name": "Clevertech",
