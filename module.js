@@ -1,8 +1,5 @@
-var ModuleClass = require( 'classes' ).ModuleClass
-  , Module;
- 
-Module = ModuleClass.extend({
- 
+var Module = require( 'classes' ).Module;
+
+module.exports = Module.extend({
+
 });
- 
-module.exports = new Module( 'backend-example-module', injector );

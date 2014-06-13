@@ -1,16 +1,9 @@
-/**
- * @doc module
- * @name exampleModule.controllers:ExampleController
- * @description
- * Sets up an example controller to showcase how to use clever-controller
- */
-module.exports = function( ExampleService ) {
-    return (require('classes').Controller).extend(
+module.exports = function ( Controller, ExampleService ) {
+    return Controller.extend(
     {
         service: ExampleService
     },
     {
- 
         /**
          * 'GET/PUT/POST/DELETE /example/custom'
          */
@@ -27,5 +20,6 @@ module.exports = function( ExampleService ) {
             console.log('Hidden function called, this should be impossible');
             process.exit();
         }
+
     });
 };

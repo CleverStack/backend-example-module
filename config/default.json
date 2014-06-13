@@ -1,9 +1,5 @@
 {
-  "background-tasks": {
-        "on" : true,
- 
-        "tasks":[
-            { "name": "ExampleTask", "masterOnly": true }
-        ]
-    }
+  "backend-example-module": {
+    "driver": "ORM"
+  }
 }
