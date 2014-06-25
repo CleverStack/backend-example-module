@@ -1,10 +1,10 @@
-var Class = require( 'uberclass' )
+var Task = require( 'classes' ).task
   , async = require( 'async' )
-  , debug = require( 'debug' )( 'ExampleTask' );
- 
-var ExampleTask = module.exports = Class.extend(
+  , debug = require( 'debug' )( 'ExampleLockingTask' );
+
+module.exports = Task.extend(
 {
-    init: function( callback ) {
+    init: function( payload, callback ) {
       debug( 'Starting...' );
  
         async.parallel([
