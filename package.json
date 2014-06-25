@@ -1,32 +1,39 @@
 {
   "name": "backend-example-module",
-  "version": "1.0.2",
-  "dependencies": {},
+  "description": "An example module for the Cleverstack backend. Use this as a reference for making your own module.",
+  "version": "1.0.3",
+  "main": "module.js",
   "author": {
-    "name": "Clevertech",
-    "email": "info@clevertech.biz",
-    "web": "http://www.clevertech.biz"
+    "name": "CleverStack",
+    "email": "admin@cleverstack.io",
+    "web": "http://www.cleverstack.io"
   },
   "collaborators": [
     "Richard Gustin <richard.gustin86@gmail.com>",
-    "Daniel Young <daniel@clevertech.biz>"
+    "Daniel Young <young.daniel88@gmail.com>"
   ],
-  "description": "An example module for the Cleverstack backend. Use this as a reference for making your own module.",
-  "keywords": [
-    "cleverstack",
-    "cleverstack-module",
-    "cleverstack-backend",
-    "clevertech",
-    "backend"
-  ],
-  "main": "module.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/CleverStack/backend-example-module.git"
   },
   "bugs": {
     "url": "https://github.com/CleverStack/backend-example-module/issues"
+  },
+  "keywords": [
+    "cleverstack",
+    "cleverstack-module",
+    "cleverstack-backend",
+    "backend"
+  ],
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "memcached": "~0.2.6",
+    "redis": "~0.10.3",
+    "moment": "~2.5.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-prompt": "~1.1.0"
   },
   "bundledDependencies": [
     "clever-background-tasks"

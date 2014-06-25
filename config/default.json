@@ -1,5 +1,17 @@
 {
-  "backend-example-module": {
-    "driver": "ORM"
-  }
+    "backend-example-module": {
+        "driver": "ORM"
+    },
+    "clever-background-tasks": {
+        "enabled" : true,
+        "interval": 2500,
+        "tasks":[
+            { "name": "ExampleTask", "parallel": true, "numWorkers": 2 }
+        ],
+        "driver": "redis",
+        "redis": {
+            "host": "localhost",
+            "port": "11211"
+        }
+    }
 }
