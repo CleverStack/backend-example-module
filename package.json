@@ -1,7 +1,7 @@
 {
   "name": "backend-example-module",
   "description": "An example module for the Cleverstack backend. Use this as a reference for making your own module.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "module.js",
   "author": {
     "name": "CleverStack",
@@ -23,12 +23,12 @@
     "cleverstack",
     "cleverstack-module",
     "cleverstack-backend",
-    "backend"
+    "backend",
+    "cleverstack example",
+    "cleverstack example module"
   ],
   "license": "BSD-2-Clause",
   "dependencies": {
-    "memcached": "~0.2.6",
-    "redis": "~0.10.3",
     "moment": "~2.5.0"
   },
   "devDependencies": {
