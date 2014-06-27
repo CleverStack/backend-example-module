@@ -1,4 +1,4 @@
-var Task = require( 'classes' ).task
+var Task = require( 'classes' ).Task
   , async = require( 'async' )
   , debug = require( 'debug' )( 'ExampleTask' );
  
