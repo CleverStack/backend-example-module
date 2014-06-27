@@ -46,3 +46,8 @@ Simply add the following config to your /config/local.json (or into your global.
 1. Clone this repo (or untar it there) into your modules folder (ie modules/backend-example-module)
 2. Add 'backend-example-module' to the bundledDependencies array of your app's package.json.
 6. Run `grunt server` to start your application.
+
+
+## License
+
+See our [LICENSE](https://github.com/CleverStack/backend-example-module/blob/master/LICENSE)
